@@ -95,8 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
       }
     }
 
-    showAdaptiveDialog(
-        barrierDismissible: true,
+    showModalBottomSheet(
         context: context,
         builder: (BuildContext context) {
           return ListView.builder(
